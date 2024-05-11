@@ -5,6 +5,7 @@
     border-radius: 5px;
     margin: 0 auto;
     text-align: center;
+
 }
 
 .display{
@@ -23,4 +24,10 @@ button{
     height: 50px;
     margin: 5px;
     font-size: 27px;
+}
+
+.calculator p{
+    color: black;
+    font-size: 24px;
+    font-weight: bold
 }
