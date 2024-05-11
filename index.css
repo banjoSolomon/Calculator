@@ -28,7 +28,10 @@
 button:hover {
     background-color: #d0d0d0;
     cursor: pointer;
-    box-shadow: 5px 5px 10px rgba(0,0,0, 0.15);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    transition: box-shadow 0.15s, color 1s;
+    vertical-align: top;
+    color: #000;
 }
 
 button{
