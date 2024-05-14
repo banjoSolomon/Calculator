@@ -2,7 +2,14 @@
 let displayValue = "";
 
 function Display(value) {
-    displayValue += value;
+   if(displayValue === "0" && value === "0"){
+       return;
+   }
+   if(displayValue === "0" && value !== "." && !/^[0-9]$/.test(value)){
+       displayValue = value
+   }else{
+       displayValue += value;
+   }
     document.getElementById("display").innerText = displayValue;
 
 }
